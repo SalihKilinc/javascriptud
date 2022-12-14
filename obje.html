@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let description={
+            firstname: "John",
+            lastName: "Green",
+            age:35,
+            email: "john@gmail.com",
+            friends:["Mehmet" , "Kenan" , "Selma"],
+              // dizi ekleyebiliyoruz obje icine
+              selamAl: function(){
+                console.log("hello world");
+              }
+        }
+        console.log( description.age , description.lastName , description.firstname , description.email , description)
+description.firstname="Salih"
+description.lastName="Asus"  // ad ve soyadi boylece degistirdik
+ console.log(description)
+ description.selamAl()
+
+    </script>
+</body>
+</html>
