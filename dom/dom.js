@@ -1,0 +1,1 @@
+//document.getElementById("bio").innerHTML="M.Kenan :2013"
