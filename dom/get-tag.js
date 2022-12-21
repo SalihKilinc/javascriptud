@@ -39,4 +39,4 @@ let p2 = document.getElementById("p2")
 div1.insertBefore(heading,p2)
 
 alert("p2 siliniyor dikkat edin")   ///p2 tagini sildik
-div1.removeChild(p2)
+div1.removeChild
