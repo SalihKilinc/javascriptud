@@ -59,7 +59,7 @@ tblStudentsTbody.querySelectorAll("tr").forEach((tr) => {
 
 document.getElementById("btnAdd").addEventListener("click", () => {
   let newTd = document.createElement("td");
-  newTd.innerHTML = letterInput.value;
+  newTd.innerHTML += letterInput.value;
   tblStudentsTbody.appendChild(newTd);
 });
 
