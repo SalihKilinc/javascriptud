@@ -1,5 +1,6 @@
 import { students } from "../data/students.js";
 
+
 const letterInput = document.getElementById("textInput");
 const btnAdd = document.getElementById("btnAdd");
 const point = document.getElementById("btnPoint");
@@ -59,8 +60,6 @@ tblStudentsTbody.querySelectorAll("tr").forEach((tr) => {
 
 document.getElementById("btnAdd").addEventListener("click", () => {
   let newTd = document.createElement("td");
-  newTd.innerHTML += letterInput.value;
+  newTd.innerHTML = letterInput.value;
   tblStudentsTbody.appendChild(newTd);
 });
-
-/* EVENTS */
